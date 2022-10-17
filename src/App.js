@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
+// import Star from "./components/Star";
 import data from "./data"
 import cardImage from './images/img2.jpg';
 
@@ -65,6 +66,8 @@ export default function App() {
       {/* <section className="card--list">
         {cards}
       </section> */}
+
+      {/* <Star isFilled={contact.isFavourite}/> */}
     </div>
   )
 }
